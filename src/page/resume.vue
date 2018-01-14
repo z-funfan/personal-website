@@ -7,7 +7,7 @@
       <resume-education></resume-education>
       <resume-skills></resume-skills>
     </div>
-    <span class="to-be-done">还没做完</span>
+    <!-- <span class="to-be-done">还没做完</span> -->
   </div>
 </template>
 
@@ -36,13 +36,11 @@ export default {
   display: flex;
   justify-content: center;
   background-color: #fafafa;
-  z-index: -99;
   .page-a4 {
     width: 9.25in;
     height: 100%;
     background-color: #fafafa;
-    z-index: -50;
-    filter: blur(10px);
+    // filter: blur(10px);
   }
   .to-be-done {
     position: fixed;

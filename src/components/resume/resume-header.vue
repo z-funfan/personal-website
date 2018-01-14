@@ -1,6 +1,6 @@
 <template>
   <div class="resume-header">
-    <blur :blur-amount="15" :url="backgroundUrl">
+    <blur class="background" :blur-amount="15" :url="backgroundUrl">
       <p class="center"><img :src="url"></p>
       <div class="name-wrapper">
         <span class="name">{{name}}</span>
@@ -29,6 +29,9 @@ export default {
 </script>
 <style lang="less" scoped>
 .resume-header {
+  .background {
+    z-index: 50;
+  }
   .center {
     text-align: center;
     padding-top: 20px;
