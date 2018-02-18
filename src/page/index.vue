@@ -54,7 +54,7 @@ export default {
     .main-background {
       position: absolute;
       padding-bottom: 25px;
-      background-image: url("../assets/img/index-background.png");
+      background-image: url("../assets/img/index-background.gif");
       background-size: cover;
       background-repeat: no-repeat;
       top: 0px;
