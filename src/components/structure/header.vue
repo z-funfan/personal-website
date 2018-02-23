@@ -6,16 +6,13 @@
         </a>
 
         <tab bar-active-color="#5421ff">
-          <tab-item selected >
-            <router-link class="router-link" to="/">主页</router-link>
+          <tab-item>
+              <a class="router-link" href="http://funfan.xyz/">博客</a>
           </tab-item>
           <tab-item>
-            <router-link class="router-link" to="/blog">博客</router-link>
+            <a class="router-link" href="http://funfan.xyz/admin">博客管理</a>
           </tab-item>
-          <tab-item>
-            <router-link class="router-link" to="/blogmgt">博客管理</router-link>
-          </tab-item>
-          <tab-item>
+          <tab-item selected>
             <router-link class="router-link" to="/resume">简历</router-link>
           </tab-item>
         </tab>

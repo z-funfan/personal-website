@@ -21,6 +21,7 @@ export default {
 @import "./assets/css/iconfont.css";
 @import "./assets/css/bootstrap.min.css";
 
+
 .app a {
   color: #7e8c8d;
   text-decoration: none;
