@@ -11,10 +11,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@xkeshi/image-compressor": "^0.5.3",
     "chart.js": "^2.7.1",
     "vue": "^2.5.2",
     "vue-chartjs": "^3.1.0",
     "vue-router": "^3.0.1",
+    "vue-upload-component": "^2.8.3",
     "vux": "^2.7.7",
     "vux-loader": "^1.1.30"
   },
