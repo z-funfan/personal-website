@@ -13,11 +13,11 @@
             <a class="router-link" href="http://funfan.xyz/admin">博客管理</a>
           </tab-item>
           <tab-item selected>
-            <router-link class="router-link" to="/resume">简历</router-link>
+            <router-link class="router-link" to="/">简历</router-link>
           </tab-item>
-          <tab-item>
+          <!-- <tab-item>
             <router-link class="router-link" to="/image">实验</router-link>
-          </tab-item>
+          </tab-item> -->
         </tab>
       </div>
       <!-- <button v-on:click="hello">Hello</button> -->

@@ -19,8 +19,8 @@ export default {
   },
   data() {
     return {
-      url: "../../../static/img/resume/my_photo.jpg",
-      backgroundUrl: "../../../static/img/resume/header-background.jpg",
+      url: "/resume/static/img/resume/my_photo.jpg",
+      backgroundUrl: "/resume/static/img/resume/header-background.jpg",
       name: "郑丰帆",
       job: "软件工程师"
     };
