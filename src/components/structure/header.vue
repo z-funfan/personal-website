@@ -7,13 +7,16 @@
 
         <tab bar-active-color="#5421ff">
           <tab-item>
-              <a class="router-link" href="http://funfan.xyz/">博客</a>
+              <a class="router-link" href="https://funfan.xyz/">博客</a>
           </tab-item>
           <tab-item>
-            <a class="router-link" href="http://funfan.xyz/admin">博客管理</a>
+            <a class="router-link" href="https://funfan.xyz/admin">博客管理</a>
           </tab-item>
           <tab-item selected>
             <router-link class="router-link" to="/">简历</router-link>
+          </tab-item>
+          <tab-item selected>
+            <router-link class="router-link" to="/chatrooms">聊天室</router-link>
           </tab-item>
           <!-- <tab-item>
             <router-link class="router-link" to="/image">实验</router-link>
